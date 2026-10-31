@@ -22,3 +22,6 @@ Datos consultados el 31/10/2026; confirmar horarios, precios y accesos. No hay r
 
 ## Mapa interactivo
 `mapa.html`, `map.js`, `map.css` y `map-points.json`: mapa Leaflet 1.9.4 con filtros por día y tipo, fichas y enlaces Google Maps. Biblioteca incluida localmente en `assets/leaflet` con su licencia BSD. Mapas base de OpenStreetMap; atribución visible y carga bajo demanda, sin precarga ni modo offline. Coordenadas consultadas una sola vez y almacenadas; no se realizan consultas de geocodificación desde la web. Los marcadores aproximados se indican en la lista y fichas. No se representan rutas calculadas ni aparcamientos garantizados.
+
+
+Rutas: `map-routes.json` define paradas ordenadas, modos y rangos estimados manualmente (no tiempos calculados ni tráfico en directo). Se dibujan conexiones esquemáticas discontinuas. Las alternativas de Teror y lluvia en Las Palmas se eligen en el panel. Cada tramo enlaza Google Maps; el acceso al Nublo enlaza el portal oficial de senderos. Regresos a los coches incluidos.

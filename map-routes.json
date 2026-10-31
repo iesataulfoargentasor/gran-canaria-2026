@@ -1,0 +1,386 @@
+{
+  "dia-31": {
+    "stops": [
+      "aeropuerto",
+      "hotel"
+    ],
+    "legs": [
+      {
+        "mode": "driving",
+        "time": "25–35 min",
+        "note": "Después de recoger el coche. Añade el tiempo de equipaje y alquiler."
+      }
+    ],
+    "note": ""
+  },
+  "dia-1": {
+    "stops": [
+      "hotel",
+      "teror",
+      "suso",
+      "arucas",
+      "hotel"
+    ],
+    "legs": [
+      {
+        "mode": "driving",
+        "time": "35–45 min",
+        "note": ""
+      },
+      {
+        "mode": "driving",
+        "time": "10–15 min",
+        "note": ""
+      },
+      {
+        "mode": "driving",
+        "time": "30–40 min",
+        "note": ""
+      },
+      {
+        "mode": "driving",
+        "time": "20–30 min",
+        "note": ""
+      }
+    ],
+    "note": "Ruta principal con comida en Bar Suso. D’Fernandez es una alternativa, no una segunda comida.",
+    "variants": [
+      {
+        "label": "Comer en D’Fernandez",
+        "stops": [
+          "hotel",
+          "teror",
+          "fernandez",
+          "teror",
+          "arucas",
+          "hotel"
+        ],
+        "legs": [
+          {
+            "mode": "driving",
+            "time": "35–45 min",
+            "note": ""
+          },
+          {
+            "mode": "walking",
+            "time": "3–5 min",
+            "note": ""
+          },
+          {
+            "mode": "walking",
+            "time": "3–5 min",
+            "note": "Regreso al coche en Teror."
+          },
+          {
+            "mode": "driving",
+            "time": "25–35 min",
+            "note": ""
+          },
+          {
+            "mode": "driving",
+            "time": "20–30 min",
+            "note": ""
+          }
+        ],
+        "note": "Alternativa a Bar Suso: comida en el centro de Teror."
+      }
+    ]
+  },
+  "dia-2": {
+    "stops": [
+      "hotel",
+      "mogan",
+      "cofradia-mogan",
+      "mogan",
+      "faro",
+      "charca",
+      "dunas",
+      "faro",
+      "hotel"
+    ],
+    "legs": [
+      {
+        "mode": "driving",
+        "time": "60–75 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "5–10 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "5–10 min",
+        "note": "Regreso al coche en la zona del puerto; ajusta según aparcamiento."
+      },
+      {
+        "mode": "driving",
+        "time": "25–35 min",
+        "note": "Aparca en el entorno de Meloneras; añade 10–15 min hasta el faro."
+      },
+      {
+        "mode": "walking",
+        "time": "10–15 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "3–5 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "10–15 min",
+        "note": "Regreso por el paseo y al aparcamiento."
+      },
+      {
+        "mode": "driving",
+        "time": "45–60 min",
+        "note": ""
+      }
+    ],
+    "note": ""
+  },
+  "dia-3": {
+    "stops": [
+      "hotel",
+      "llanos",
+      "nublo",
+      "llanos",
+      "tejeda",
+      "caminero",
+      "tejeda",
+      "hotel"
+    ],
+    "legs": [
+      {
+        "mode": "driving",
+        "time": "70–90 min",
+        "note": ""
+      },
+      {
+        "mode": "shuttle",
+        "time": "50–75 min",
+        "note": "Guagua hasta el inicio autorizado y subida a pie. Añade la espera de la guagua; no conducir hasta el monumento."
+      },
+      {
+        "mode": "shuttle",
+        "time": "45–70 min",
+        "note": "Bajada a pie y guagua de vuelta al mismo aparcamiento. Añade la espera."
+      },
+      {
+        "mode": "driving",
+        "time": "25–35 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "5–10 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "5–10 min",
+        "note": "Paseo por Tejeda y vuelta al coche."
+      },
+      {
+        "mode": "driving",
+        "time": "60–75 min",
+        "note": ""
+      }
+    ],
+    "note": "Reserva y transporte según las instrucciones vigentes. Sal del hotel hacia las 08:00–08:15; ajusta la visita y la comida a la guagua y a tu reserva. Los tiempos no incluyen la estancia en el monumento."
+  },
+  "dia-4": {
+    "stops": [
+      "hotel",
+      "mercado",
+      "santa-ana",
+      "colon",
+      "lagunetas",
+      "canteras",
+      "puntilla",
+      "hotel"
+    ],
+    "legs": [
+      {
+        "mode": "walking",
+        "time": "12–18 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "5–8 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "3–5 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "10–15 min",
+        "note": ""
+      },
+      {
+        "mode": "transit",
+        "time": "25–40 min",
+        "note": "Guagua incluyendo paseo a las paradas y espera aproximada; taxi 15–20 min."
+      },
+      {
+        "mode": "walking",
+        "time": "15–20 min",
+        "note": ""
+      },
+      {
+        "mode": "transit",
+        "time": "25–40 min",
+        "note": "Guagua con acceso y espera aproximada; taxi 15–20 min."
+      }
+    ],
+    "note": "Ruta de buen tiempo por Las Canteras. El Museo Canario sustituye a la playa si llueve.",
+    "variants": [
+      {
+        "label": "Tarde de lluvia · Museo Canario",
+        "stops": [
+          "hotel",
+          "mercado",
+          "santa-ana",
+          "colon",
+          "lagunetas",
+          "museo",
+          "hotel"
+        ],
+        "legs": [
+          {
+            "mode": "walking",
+            "time": "12–18 min",
+            "note": ""
+          },
+          {
+            "mode": "walking",
+            "time": "5–8 min",
+            "note": ""
+          },
+          {
+            "mode": "walking",
+            "time": "3–5 min",
+            "note": ""
+          },
+          {
+            "mode": "walking",
+            "time": "10–15 min",
+            "note": ""
+          },
+          {
+            "mode": "walking",
+            "time": "12–18 min",
+            "note": ""
+          },
+          {
+            "mode": "walking",
+            "time": "18–25 min",
+            "note": ""
+          }
+        ],
+        "note": "El Museo Canario sustituye a Las Canteras y La Puntilla."
+      }
+    ]
+  },
+  "dia-5": {
+    "stops": [
+      "hotel",
+      "sanjuan",
+      "sanfrancisco",
+      "sanjuan",
+      "taliarte",
+      "melenara",
+      "taliarte",
+      "aeropuerto"
+    ],
+    "legs": [
+      {
+        "mode": "driving",
+        "time": "25–35 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "5–10 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "5–10 min",
+        "note": "Vuelve al coche en la zona de San Juan."
+      },
+      {
+        "mode": "driving",
+        "time": "15–20 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "10–15 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "10–15 min",
+        "note": "Vuelve al coche en Taliarte antes de salir hacia el aeropuerto."
+      },
+      {
+        "mode": "driving",
+        "time": "15–20 min",
+        "note": "Añade 45–60 min para repostar, devolver el coche y llegar a la terminal. Objetivo: devolución 16:30–17:00 y terminal 17:00–17:30; vuelo 19:30."
+      }
+    ],
+    "note": ""
+  },
+  "alternativa": {
+    "stops": [
+      "hotel",
+      "cueva",
+      "nieves",
+      "angor",
+      "nieves",
+      "agaete",
+      "hotel"
+    ],
+    "legs": [
+      {
+        "mode": "driving",
+        "time": "30–40 min",
+        "note": ""
+      },
+      {
+        "mode": "driving",
+        "time": "20–25 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "3–5 min",
+        "note": ""
+      },
+      {
+        "mode": "walking",
+        "time": "3–5 min",
+        "note": "Regreso al coche en la zona del puerto."
+      },
+      {
+        "mode": "driving",
+        "time": "5–10 min",
+        "note": ""
+      },
+      {
+        "mode": "driving",
+        "time": "35–45 min",
+        "note": ""
+      }
+    ],
+    "note": "Jornada sustitutiva, no adicional. Angor: confirma apertura; cierre publicado miércoles y jueves. El paseo por Agaete es opcional."
+  }
+}
