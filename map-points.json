@@ -1,0 +1,459 @@
+[
+  {
+    "id": "hotel",
+    "name": "Sercotel Hotel Parque",
+    "kind": "base",
+    "days": [
+      "dia-31",
+      "dia-1",
+      "dia-2",
+      "dia-3",
+      "dia-4",
+      "dia-5",
+      "alternativa"
+    ],
+    "query": "Hotel Parque, Las Palmas de Gran Canaria",
+    "description": "Muelle Las Palmas, 2. Base del viaje.",
+    "lat": 28.1095256,
+    "lng": -15.4168812,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/node/438753287",
+    "match": "Hotel Parque, 4, Calle Muelle Las Palmas, Canalejas, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35002, España"
+  },
+  {
+    "id": "aeropuerto",
+    "name": "Aeropuerto de Gran Canaria / Goldcar",
+    "kind": "base",
+    "days": [
+      "dia-31",
+      "dia-5"
+    ],
+    "query": "Aeropuerto de Gran Canaria",
+    "description": "Terminal del aeropuerto (ubicación orientativa). Llegada 31 oct 22:10; salida 5 nov 19:30. Sigue el contrato para localizar Goldcar.",
+    "lat": 27.9389,
+    "lng": -15.3899,
+    "approximate": true,
+    "source": "https://www.openstreetmap.org/relation/16836930",
+    "match": "Aeropuerto de Gran Canaria, Autopista del Sur, Los Moriscos, Ingenio, Las Palmas, Canarias, 35240, España"
+  },
+  {
+    "id": "teror",
+    "name": "Basílica del Pino y mercadillo",
+    "kind": "visita",
+    "days": [
+      "dia-1"
+    ],
+    "query": "Basílica de Nuestra Señora del Pino, Teror",
+    "description": "10:00–12:15. Mercado dominical 09:00–15:00; confirmar el festivo.",
+    "lat": 28.059302,
+    "lng": -15.5478112,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/255717574",
+    "match": "Basílica de Nuestra Señora del Pino, Calle de La Diputacion, Barrio del Pino, San Matías, Teror, Las Palmas, Canarias, 35330, España"
+  },
+  {
+    "id": "arucas",
+    "name": "Iglesia de San Juan Bautista, Arucas",
+    "kind": "visita",
+    "days": [
+      "dia-1"
+    ],
+    "query": "Iglesia de San Juan Bautista, Arucas",
+    "description": "15:00–17:00. Casco histórico y plaza de San Juan.",
+    "lat": 28.1192,
+    "lng": -15.5215,
+    "approximate": true,
+    "source": "",
+    "match": ""
+  },
+  {
+    "id": "suso",
+    "name": "Bochinche Bar Suso",
+    "kind": "restaurante",
+    "days": [
+      "dia-1"
+    ],
+    "query": "Bochinche Bar Suso, Párroco Faustino Alonso 14, Teror",
+    "description": "12:30–14:00. 15–20 € aprox. Ropa vieja y potaje. 928 023 126. Domingo publicado 12:00–16:00.",
+    "lat": 28.0395262,
+    "lng": -15.5485095,
+    "approximate": true,
+    "source": "https://www.openstreetmap.org/way/402163858",
+    "match": "Calle Párroco Faustino Alonso, Sagrado Corazón, Teror, Las Palmas, Canarias, 35338, España"
+  },
+  {
+    "id": "fernandez",
+    "name": "D’Fernandez",
+    "kind": "restaurante",
+    "days": [
+      "dia-1"
+    ],
+    "query": "D Fernandez, Plaza de Sintes local 4, Teror",
+    "description": "Alternativa sin salir del mercadillo. Plaza de Sintes, local 4. Cabra, ropa vieja y gofio. 694 233 515. Domingo 11:00–19:00; consultar precios.",
+    "lat": 28.0585467,
+    "lng": -15.5479818,
+    "approximate": true,
+    "source": "https://www.openstreetmap.org/way/365053405",
+    "match": "Plaza de Sintes, El Chorrito, Teror, Las Palmas, Canarias, 35330, España"
+  },
+  {
+    "id": "mogan",
+    "name": "Puerto de Mogán",
+    "kind": "visita",
+    "days": [
+      "dia-2"
+    ],
+    "query": "Puerto de Mogán",
+    "description": "10:15–12:30. Puerto y barrio marinero; mercado solo los viernes.",
+    "lat": 27.8174031,
+    "lng": -15.7652175,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/52656886",
+    "match": "Puerto de Mogán, Playa de Mogán, Mogán, Las Palmas, Canarias, España"
+  },
+  {
+    "id": "cofradia-mogan",
+    "name": "Cofradía de Pescadores de Mogán",
+    "kind": "restaurante",
+    "days": [
+      "dia-2"
+    ],
+    "query": "Cofradía de Pescadores, Puerto de Mogán",
+    "description": "12:30–14:00. 20–30 € aprox. Pescado y sardinillas. Explanada del Castillete, 7. 928 565 321; confirmar cocina del lunes.",
+    "lat": 27.8159,
+    "lng": -15.7643,
+    "approximate": true,
+    "source": "",
+    "match": ""
+  },
+  {
+    "id": "faro",
+    "name": "Faro de Maspalomas",
+    "kind": "visita",
+    "days": [
+      "dia-2"
+    ],
+    "query": "Faro de Maspalomas",
+    "description": "14:45–17:30. Inicio del paseo por faro, Charca y entorno de las dunas.",
+    "lat": 27.7352087,
+    "lng": -15.5989159,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/60043460",
+    "match": "Faro de Maspalomas, Plaza del Faro, Campo de Golf, San Bartolomé de Tirajana, Las Palmas, Canarias, 35100, España"
+  },
+  {
+    "id": "charca",
+    "name": "Charca de Maspalomas",
+    "kind": "visita",
+    "days": [
+      "dia-2"
+    ],
+    "query": "Charca de Maspalomas",
+    "description": "Observación del paisaje y aves desde los accesos permitidos.",
+    "lat": 27.7384766,
+    "lng": -15.5942043,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/25592518",
+    "match": "Charca de Maspalomas, Campo de Golf, San Bartolomé de Tirajana, Las Palmas, Canarias, España"
+  },
+  {
+    "id": "dunas",
+    "name": "Mirador junto a la Charca y las dunas",
+    "kind": "visita",
+    "days": [
+      "dia-2"
+    ],
+    "query": "Las Dunas de Maspalomas Paseo Charca Maspalomas",
+    "description": "Punto de observación junto a la Charca. Recorre únicamente los senderos señalizados de las dunas.",
+    "lat": 27.7389994,
+    "lng": -15.5952266,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/node/676029556",
+    "match": "Las Dunas de Maspalomas, Paseo Charca Maspalomas, Campo de Golf, San Bartolomé de Tirajana, Las Palmas, Canarias, 35100, España"
+  },
+  {
+    "id": "llanos",
+    "name": "Cruz de los Llanos",
+    "kind": "visita",
+    "days": [
+      "dia-3"
+    ],
+    "query": "Cruz de los Llanos, Gran Canaria",
+    "description": "Acceso orientativo a la cumbre. Utiliza el aparcamiento y la guagua indicados por la reserva vigente.",
+    "lat": 27.9703,
+    "lng": -15.5849,
+    "approximate": true,
+    "source": "",
+    "match": ""
+  },
+  {
+    "id": "nublo",
+    "name": "Roque Nublo",
+    "kind": "visita",
+    "days": [
+      "dia-3"
+    ],
+    "query": "Roque Nublo",
+    "description": "10:00–13:00, incluyendo transporte. Reserva obligatoria según regulación vigente. El marcador NO es un aparcamiento; acceso a pie.",
+    "lat": 27.970815,
+    "lng": -15.6125968,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/node/303985477",
+    "match": "Roque Nublo, Tejeda, Las Palmas, Canarias, 35368, España"
+  },
+  {
+    "id": "tejeda",
+    "name": "Tejeda",
+    "kind": "visita",
+    "days": [
+      "dia-3"
+    ],
+    "query": "Tejeda, Gran Canaria",
+    "description": "14:00–16:00. Centro del pueblo: comida, paseo y dulcería. Bienmesabe y mazapán.",
+    "lat": 27.995,
+    "lng": -15.615,
+    "approximate": true,
+    "source": "",
+    "match": ""
+  },
+  {
+    "id": "caminero",
+    "name": "Casa del Caminero",
+    "kind": "restaurante",
+    "days": [
+      "dia-3"
+    ],
+    "query": "Casa del Caminero, Tejeda",
+    "description": "14:00–15:00. Av. de los Almendros, 5. 20–25 € aprox. Cabra y gofio. 682 525 982. Confirmar apertura del martes: fuentes contradictorias.",
+    "lat": 27.9966574,
+    "lng": -15.6143393,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/node/5472654676",
+    "match": "Casa del Caminero, 5, Avenida de los Almendros, La Erilla, La Tosca, Lomo de Los Santos, Tejeda, Las Palmas, Canarias, 35360, España"
+  },
+  {
+    "id": "mercado",
+    "name": "Mercado de Vegueta",
+    "kind": "visita",
+    "days": [
+      "dia-4"
+    ],
+    "query": "Mercado de Vegueta",
+    "description": "09:00–10:15, con paseo desde Triana. Apertura entre semana publicada hasta las 14:00.",
+    "lat": 28.1025807,
+    "lng": -15.4134166,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/259715457",
+    "match": "Mercado de Vegueta, 1, Calle de Mendizábal, Vegueta, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35001, España"
+  },
+  {
+    "id": "santa-ana",
+    "name": "Plaza de Santa Ana y catedral",
+    "kind": "visita",
+    "days": [
+      "dia-4"
+    ],
+    "query": "Plaza de Santa Ana, Las Palmas de Gran Canaria",
+    "description": "10:30–13:30. Recorrido histórico por Vegueta.",
+    "lat": 28.1005011,
+    "lng": -15.4155749,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/30801430",
+    "match": "Plaza de Santa Ana, Vegueta, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35001, España"
+  },
+  {
+    "id": "colon",
+    "name": "Casa de Colón",
+    "kind": "visita",
+    "days": [
+      "dia-4"
+    ],
+    "query": "Casa de Colón, Las Palmas de Gran Canaria",
+    "description": "Visita cultural por la mañana. Confirmar horario del museo.",
+    "lat": 28.1013769,
+    "lng": -15.4141141,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/relation/19853960",
+    "match": "Casa de Colón, 1, Calle Colón, Vegueta, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35002, España"
+  },
+  {
+    "id": "museo",
+    "name": "El Museo Canario",
+    "kind": "visita",
+    "days": [
+      "dia-4"
+    ],
+    "query": "El Museo Canario",
+    "description": "Alternativa para la tarde lluviosa. Lunes a viernes publicado: 10:00–20:00.",
+    "lat": 28.0995948,
+    "lng": -15.4153607,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/relation/7528179",
+    "match": "El Museo Canario, 2, Calle Doctor Verneau, Vegueta, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35001, España"
+  },
+  {
+    "id": "lagunetas",
+    "name": "Bodegón Lagunetas",
+    "kind": "restaurante",
+    "days": [
+      "dia-4"
+    ],
+    "query": "Bodegón Lagunetas, Las Palmas de Gran Canaria",
+    "description": "13:30–15:00. Constantino, 16. 20–25 € aprox. Ropa vieja, pata asada y quesos; preguntar medias raciones.",
+    "lat": 28.105955,
+    "lng": -15.4171746,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/node/13006883901",
+    "match": "Bodegón Lagunetas, 6, Calle Lagunetas, Triana, Las Palmas de Gran Canaria, Las Palmas, Canarias, 35002, España"
+  },
+  {
+    "id": "canteras",
+    "name": "Playa de Las Canteras",
+    "kind": "visita",
+    "days": [
+      "dia-4"
+    ],
+    "query": "Playa de Las Canteras",
+    "description": "15:30–18:00 si el tiempo acompaña. Traslado en guagua o taxi desde el centro.",
+    "lat": 28.1395521,
+    "lng": -15.4366332,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/30598416",
+    "match": "Playa de Las Canteras, Puerto, Santa Catalina-Canteras, Las Palmas de Gran Canaria, Las Palmas, Canarias, España"
+  },
+  {
+    "id": "puntilla",
+    "name": "La Puntilla",
+    "kind": "visita",
+    "days": [
+      "dia-4"
+    ],
+    "query": "La Puntilla, Las Palmas de Gran Canaria",
+    "description": "Final del paseo por Las Canteras.",
+    "lat": 28.148756,
+    "lng": -15.4325455,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/37502322",
+    "match": "La Puntilla, La Isleta, Las Palmas de Gran Canaria, Las Palmas, Canarias, España"
+  },
+  {
+    "id": "sanjuan",
+    "name": "Basílica de San Juan Bautista, Telde",
+    "kind": "visita",
+    "days": [
+      "dia-5"
+    ],
+    "query": "Basílica de San Juan Bautista, Telde",
+    "description": "10:30–12:30. Paseo por el casco histórico.",
+    "lat": 28.003265,
+    "lng": -15.4138289,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/255041867",
+    "match": "Basílica de San Juan Bautista, Calle Doramas, San Juan, Cendro, Telde, Las Palmas, Canarias, 35200, España"
+  },
+  {
+    "id": "sanfrancisco",
+    "name": "Barrio de San Francisco, Telde",
+    "kind": "visita",
+    "days": [
+      "dia-5"
+    ],
+    "query": "Iglesia de San Francisco, Telde",
+    "description": "Calles y plazas históricas de San Francisco.",
+    "lat": 28.0033759,
+    "lng": -15.4170536,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/255041871",
+    "match": "Iglesia de San Francisco, Plaza de San Francisco, San Francisco, Cendro, Telde, Las Palmas, Canarias, 35200, España"
+  },
+  {
+    "id": "taliarte",
+    "name": "La Cofradía de Taliarte",
+    "kind": "restaurante",
+    "days": [
+      "dia-5"
+    ],
+    "query": "La Cofradía de Taliarte",
+    "description": "13:00–14:30. Muelle de Taliarte, s/n. 25–30 € aprox. Gofio y pescado. 928 134 387. Confirmar cocina a las 13:00.",
+    "lat": 27.9900799,
+    "lng": -15.369814,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/node/11494503120",
+    "match": "La Cofradia de Taliarte, Paseo Marítimo de Taliarte, Taliarte, Playa de Melenara, Telde, Las Palmas, Canarias, 35214, España"
+  },
+  {
+    "id": "melenara",
+    "name": "Playa de Melenara",
+    "kind": "visita",
+    "days": [
+      "dia-5"
+    ],
+    "query": "Playa de Melenara",
+    "description": "14:30–15:45. Paseo antes de repostar y devolver el coche. Terminal hacia las 17:00–17:30.",
+    "lat": 27.988074,
+    "lng": -15.3762647,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/node/1278759573",
+    "match": "Playa de Melenara, Telde, Las Palmas, Canarias, 35214, España"
+  },
+  {
+    "id": "cueva",
+    "name": "Cueva Pintada de Gáldar",
+    "kind": "visita",
+    "days": [
+      "alternativa"
+    ],
+    "query": "Museo y Parque Arqueológico Cueva Pintada",
+    "description": "10:00–12:00 según entrada. Cierra los lunes; reservar pase.",
+    "lat": 28.143595,
+    "lng": -15.6550873,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/95038214",
+    "match": "Museo y Parque Arqueológico Cueva Pintada, Calle Bentejui, Las Majadillas, Marmolejos, Gáldar, Las Palmas, Canarias, 35460, España"
+  },
+  {
+    "id": "agaete",
+    "name": "Casco histórico de Agaete",
+    "kind": "visita",
+    "days": [
+      "alternativa"
+    ],
+    "query": "Iglesia de Nuestra Señora de la Concepción, Agaete",
+    "description": "Paseo por el pueblo como complemento de Puerto de las Nieves.",
+    "lat": 28.1001997,
+    "lng": -15.7009197,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/1189014101",
+    "match": "Iglesia Matriz de Nuestra Señora de la Concepción, Calle las Nieves, Urbanización el Palmeral, Agaete, Las Palmas, Canarias, 35480, España"
+  },
+  {
+    "id": "nieves",
+    "name": "Puerto de las Nieves",
+    "kind": "visita",
+    "days": [
+      "alternativa"
+    ],
+    "query": "Puerto de las Nieves, Agaete",
+    "description": "12:30–16:30. Comida y paseo según el tiempo.",
+    "lat": 28.1001405,
+    "lng": -15.7130283,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/560380026",
+    "match": "Puerto de las Nieves, Agaete, Las Palmas, Canarias, España"
+  },
+  {
+    "id": "angor",
+    "name": "Terraza Angor",
+    "kind": "restaurante",
+    "days": [
+      "alternativa"
+    ],
+    "query": "Angor, Puerto de las Nieves",
+    "description": "Paseo de los Poetas, 2. Pescado y ropa vieja de pulpo. 928 554 109. Cierre publicado miércoles y jueves; consultar precios.",
+    "lat": 28.1014406,
+    "lng": -15.7112948,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/node/3435561223",
+    "match": "Angor, Paseo de los Poetas, Puerto de las Nieves, Agaete, Las Palmas, Canarias, 35480, España"
+  }
+]
