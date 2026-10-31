@@ -1,0 +1,1115 @@
+[
+  {
+    "kicker": "Tu guía de viaje",
+    "title": "Gran Canaria, día a día",
+    "subtitle": "Cinco noches · Coche de alquiler · Pueblos, naturaleza y cocina canaria",
+    "blocks": [
+      {
+        "type": "heading",
+        "args": [
+          "Los datos que guían el viaje"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Ida:</b> sábado 31 de octubre. Vueling desde Bilbao a las 20:00; llegada prevista a Gran Canaria a las 22:10, según los datos facilitados."
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Vuelta actualizada:</b> jueves 5 de noviembre. Salida de Gran Canaria a las <b>19:30</b> con Vueling hacia Bilbao. No se ha comprobado el estado de los vuelos."
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Hotel:</b> Sercotel Hotel Parque, Muelle Las Palmas, 2, 35003 Las Palmas de Gran Canaria. <b>Coche:</b> Goldcar, aeropuerto."
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "El itinerario de un vistazo"
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Cómo utilizar esta guía"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "Los enlaces subrayados abren rutas o lugares en Google Maps. Las horas son propuestas de visita, no reservas. Los tiempos de conducción son estimaciones sin tráfico ni aparcamiento. Los presupuestos de comida son por persona, con una bebida sencilla; no incluyen vino embotellado ni pescado grande al peso.",
+          10
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Tiempo:</b> se consultó información el 31/10/2026, pero no se pudo verificar una previsión diaria homogénea hasta el 5/11. Hay indicios de inestabilidad al inicio del viaje. Mantén intercambiables el día de cumbre y el de ciudad; comprueba lluvia, viento, visibilidad y avisos antes de subir.",
+          10
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "Consultar AEMET: Las Palmas",
+          "https://www.aemet.es/es/eltiempo/prediccion/municipios/palmas-de-gran-canaria-las-id35016"
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "Consultar AEMET: Tejeda y cumbres",
+          "https://www.aemet.es/es/eltiempo/prediccion/municipios/tejeda-id35025"
+        ]
+      }
+    ],
+    "id": "inicio",
+    "image": "nublo",
+    "label": "El viaje",
+    "tag": "Tu guía de bolsillo",
+    "places": []
+  },
+  {
+    "kicker": "Sábado · 31 de octubre",
+    "title": "Llegada a Gran Canaria",
+    "subtitle": "Una noche para recoger el coche, instalarte y descansar",
+    "blocks": [
+      {
+        "type": "heading",
+        "args": [
+          "Horario propuesto"
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "20:00",
+          "Salida de Bilbao con Vueling, según tu reserva. Hora peninsular."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "22:10",
+          "Llegada prevista a Gran Canaria. Desde aquí, todas las horas de la guía son canarias."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "22:10–23:15",
+          "Desembarque, equipaje y recogida del coche. El margen real dependerá del vuelo y las colas."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "23:15–00:00",
+          "Llegada orientativa al Sercotel Hotel Parque. Del aeropuerto al hotel: unos 25–35 minutos de conducción."
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Lo que conviene resolver antes de volar"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Goldcar publica cierre a las 22:59.</b> Con la llegada prevista a las 22:10, confirma cómo gestionan retrasos y recogida fuera de horario. Teléfono publicado: <b>+34 918 341 400</b>."
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "Avisa al hotel de tu llegada tardía y consulta el aparcamiento más práctico. Comprueba que la reserva del coche permita devolverlo el jueves alrededor de las 16:30–17:00; una ampliación puede cambiar el precio."
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Cena"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "Cena antes de embarcar o lleva algo previsto. No se recomienda una reserva de restaurante esa noche: la hora de llegada al hotel es demasiado incierta."
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Google Maps"
+        ]
+      },
+      {
+        "type": "route",
+        "args": [
+          "Ruta en coche: aeropuerto → hotel",
+          [
+            "Aeropuerto de Gran Canaria",
+            "Sercotel Hotel Parque, Las Palmas de Gran Canaria"
+          ]
+        ]
+      },
+      {
+        "type": "search",
+        "args": [
+          "Ubicación: Sercotel Hotel Parque",
+          "Sercotel Hotel Parque, Las Palmas de Gran Canaria"
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Información de referencia"
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "Goldcar: oficina del aeropuerto y horario",
+          "https://www.goldcar.es/es-es/alquiler-de-coches/oficinas/espana/las-palmas/aeropuerto-gran-canaria/"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "Recuerda: las horas de los billetes se expresan en la hora local de cada aeropuerto. Canarias está una hora por detrás de Bilbao.",
+          10,
+          "#4C5960"
+        ]
+      }
+    ],
+    "id": "dia-31",
+    "image": "vegueta",
+    "label": "31 oct · Llegada",
+    "tag": "Llegada · 25–35 min en coche",
+    "places": [
+      [
+        "San Telmo",
+        "Tu punto de partida",
+        "El hotel está junto a San Telmo, una base práctica para recorrer Triana a pie. Esta noche, lo mejor es instalarte y descansar.",
+        "Parque San Telmo Las Palmas"
+      ]
+    ]
+  },
+  {
+    "kicker": "Domingo · 1 de noviembre",
+    "title": "Teror y Arucas",
+    "subtitle": "Mercadillo, balcones tradicionales y cascos históricos",
+    "blocks": [
+      {
+        "type": "heading",
+        "args": [
+          "Horario propuesto"
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "09:00–09:30",
+          "Salida del hotel hacia Teror. Calcula unos 35–45 minutos y margen para aparcar."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "10:00–12:15",
+          "Mercadillo, plaza del Pino, calle Real y balcones. Basílica si está accesible fuera de los oficios."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "12:30–14:00",
+          "Comida en Teror o en Arbejales, según la opción elegida."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "15:00–17:00",
+          "Arucas: plaza de San Juan, casco histórico y exterior de la iglesia; interior si está abierto."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "17:00–18:00",
+          "Regreso al hotel. Conducción total del día: aproximadamente 1 h 30–2 h, algo más con el desvío a Arbejales."
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Dónde comer"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Opción económica: Bochinche Bar Suso.</b> C/ Párroco Faustino Alonso, 14, Arbejales. Presupuesto: <b>15–20 €</b>. Pregunta por ropa vieja, potaje, carne de cerdo y postre de gofio. Horario publicado: domingo 12:00–16:00. Tel. <b>928 023 126</b>. Hay que desviarse en coche."
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Sin salir del mercadillo: D’Fernandez.</b> Plaza de Sintes, local 4. Cocina canaria: cabra estofada, ropa vieja, gofio y productos de Teror. Domingo publicado: 11:00–19:00. Tel. <b>694 233 515</b>. No se ha verificado carta de precios actual: consúltala antes de pedir."
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Google Maps"
+        ]
+      },
+      {
+        "type": "route",
+        "args": [
+          "Ruta principal: hotel → Teror → Arucas → hotel",
+          [
+            "Sercotel Hotel Parque, Las Palmas de Gran Canaria",
+            "Basílica de Nuestra Señora del Pino, Teror",
+            "Iglesia de San Juan Bautista, Arucas",
+            "Sercotel Hotel Parque, Las Palmas de Gran Canaria"
+          ]
+        ]
+      },
+      {
+        "type": "route",
+        "args": [
+          "Desvío para comer: Teror → Bar Suso → Arucas",
+          [
+            "Teror Gran Canaria",
+            "Bochinche Bar Suso Arbejales",
+            "Arucas Gran Canaria"
+          ]
+        ]
+      },
+      {
+        "type": "search",
+        "args": [
+          "D’Fernandez, junto al mercadillo",
+          "D Fernandez Plaza de Sintes Teror"
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Festivo y lluvia"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "El mercadillo anuncia domingos de 09:00 a 15:00. Al ser Todos los Santos, confirma cambios y reserva la comida. Con lluvia intensa, utiliza el plan cultural de Las Palmas; Teror se puede visitar otro día, aunque sin el mercadillo.",
+          10
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "Ayuntamiento: mercadillo de Teror",
+          "https://teror.es/mercadillo-de-teror/"
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "D’Fernandez: cocina, horario y contacto",
+          "https://dfernandezteror.com/"
+        ]
+      }
+    ],
+    "id": "dia-1",
+    "image": "teror",
+    "label": "1 nov · Teror",
+    "tag": "Pueblos · Mercado · 1 h 30–2 h en coche",
+    "places": [
+      [
+        "Teror",
+        "Balcones y sabores locales",
+        "Recorre la calle Real y la plaza del Pino. El mercadillo es la ocasión para probar chorizo de Teror, quesos, panes y dulces.",
+        "Basílica Nuestra Señora del Pino Teror"
+      ],
+      [
+        "Arucas",
+        "Un paseo entre piedra y jardines",
+        "La iglesia de San Juan Bautista y las calles del casco histórico son las protagonistas de una tarde tranquila.",
+        "Iglesia San Juan Bautista Arucas"
+      ]
+    ]
+  },
+  {
+    "kicker": "Lunes · 2 de noviembre",
+    "title": "Puerto de Mogán y Maspalomas",
+    "subtitle": "Puerto marinero, faro, Charca y dunas",
+    "blocks": [
+      {
+        "type": "heading",
+        "args": [
+          "Horario propuesto"
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "09:00",
+          "Salida por la GC-1 hacia Puerto de Mogán. Trayecto aproximado: 1 h 10–1 h 25."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "10:15–12:30",
+          "Paseo por el puerto y las calles del barrio marinero."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "12:30–14:00",
+          "Almuerzo en la Cofradía de Pescadores de Mogán."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "14:00–14:45",
+          "Traslado a Maspalomas y aparcamiento cerca del faro."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "14:45–17:30",
+          "Faro, paseo junto a la Charca y senderos autorizados. Dedica 60–90 minutos a caminar según el viento y tus ganas."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "17:30–18:30",
+          "Regreso hacia Las Palmas. Total diario de conducción: aproximadamente 2 h 30–3 h."
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Dónde comer: Cofradía de Pescadores de Mogán"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Explanada del Castillete, 7.</b> Presupuesto: <b>20–30 € por persona</b>. Tel. <b>928 565 321</b>. Confirma servicio de cocina el lunes a las 12:30."
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "La carta digital consultada publica sardinillas a <b>12,50 €</b>, atún a la plancha a <b>14,50 €</b> y calamares a <b>15,50 €</b>. Son referencias, sujetas a cambios. Para controlar el gasto, elige platos con precio cerrado y consulta las guarniciones. Si pides pescado al peso, acuerda el precio total antes."
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Google Maps"
+        ]
+      },
+      {
+        "type": "route",
+        "args": [
+          "Ruta en coche: hotel → Puerto de Mogán → faro → hotel",
+          [
+            "Sercotel Hotel Parque, Las Palmas de Gran Canaria",
+            "Puerto de Mogán Gran Canaria",
+            "Faro de Maspalomas",
+            "Sercotel Hotel Parque, Las Palmas de Gran Canaria"
+          ]
+        ]
+      },
+      {
+        "type": "search",
+        "args": [
+          "Restaurante: Cofradía de Pescadores de Mogán",
+          "Cofradía de Pescadores Puerto de Mogán"
+        ]
+      },
+      {
+        "type": "route",
+        "args": [
+          "Paseo: faro → Charca de Maspalomas",
+          [
+            "Faro de Maspalomas",
+            "Charca de Maspalomas"
+          ],
+          "walking"
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Para disfrutar del entorno"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "El mercadillo de Mogán es los viernes y no coincide con este viaje. En las dunas, sigue las balizas y señalización: Google Maps no sustituye los senderos autorizados. Si hay lluvia intensa o viento incómodo, acorta el paseo y usa otro día para la reserva natural.",
+          10
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "Cofradía de Mogán: contacto",
+          "https://cofradiapuertomogan.eatbu.com/?lang=es"
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "Carta digital consultada",
+          "https://www.mydmenu.com/local/70"
+        ]
+      }
+    ],
+    "id": "dia-2",
+    "image": "mogan",
+    "label": "2 nov · El sur",
+    "tag": "Mar · Dunas · 2 h 30–3 h en coche",
+    "places": [
+      [
+        "Puerto de Mogán",
+        "La mañana junto al puerto",
+        "Pasea entre las calles blancas y el puerto antes de comer. El mercadillo es los viernes, por lo que no coincide con este viaje.",
+        "Puerto de Mogán"
+      ],
+      [
+        "Maspalomas",
+        "Arena, aves y horizonte",
+        "Combina el faro, la Charca y un paseo por los itinerarios señalizados. La reserva se disfruta respetando las balizas y las zonas protegidas.",
+        "Charca Maspalomas"
+      ]
+    ]
+  },
+  {
+    "kicker": "Martes · 3 de noviembre",
+    "title": "Roque Nublo y Tejeda",
+    "subtitle": "La jornada de montaña: elige el día más despejado",
+    "blocks": [
+      {
+        "type": "heading",
+        "args": [
+          "Horario propuesto, sujeto a reserva y meteorología"
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "08:30",
+          "Salida hacia la cumbre. Las carreteras tienen curvas: calcula 1 h 15–1 h 45 hasta el punto de acceso elegido."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "10:00–13:00",
+          "Aparcamiento habilitado, traslado en guagua y paseo al Roque Nublo. Ajusta el orden a la franja reservada y al transporte vigente."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "14:00–15:00",
+          "Comida en Tejeda."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "15:00–16:00",
+          "Paseo por el pueblo y dulcería: bienmesabe o mazapán de almendra."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "16:00–17:30",
+          "Regreso con luz. Conducción del día: unas 3–3 h 30, según el acceso y los desvíos."
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Acceso al Roque Nublo"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "El acceso está regulado: <b>reserva previamente</b> y comprueba el aparcamiento disuasorio y la guagua que correspondan. No conduzcas al inicio del sendero contando con poder aparcar. La aproximación habitual es de unos <b>1,5 km por sentido</b>, con subida y terreno irregular; reserva unas 2 horas para caminar y disfrutar, además de los traslados."
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "Reservas y condiciones de acceso al Roque Nublo",
+          "https://reservasroquenublo.com/"
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "Turismo: información oficial de acceso y transporte",
+          "https://www.grancanaria.com/turismo/naturaleza/red-de-miradores/mirador-roquenublo/"
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Dónde comer: Casa del Caminero"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Av. de los Almendros, 5, Tejeda.</b> Presupuesto: <b>20–25 €</b>. Carta publicada: gofio 6 €, papas con mojo 6 €, cabra en salsa 14 € y carne de cochino 12 €. Tel. <b>682 525 982</b>. <b>Confirma apertura el martes:</b> existen horarios contradictorios en directorios. Si cambias el día de montaña, cambia también la reserva."
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "Casa del Caminero: carta publicada",
+          "https://casadelcaminero.com/menu/"
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Google Maps: trayectos separados"
+        ]
+      },
+      {
+        "type": "route",
+        "args": [
+          "Hotel → Cruz de los Llanos (solo si el acceso vigente lo indica)",
+          [
+            "Sercotel Hotel Parque, Las Palmas de Gran Canaria",
+            "Cruz de los Llanos Gran Canaria"
+          ]
+        ]
+      },
+      {
+        "type": "route",
+        "args": [
+          "Cruz de los Llanos → Tejeda → hotel",
+          [
+            "Cruz de los Llanos Gran Canaria",
+            "Tejeda Gran Canaria",
+            "Sercotel Hotel Parque, Las Palmas de Gran Canaria"
+          ]
+        ]
+      },
+      {
+        "type": "search",
+        "args": [
+          "Restaurante: Casa del Caminero",
+          "Casa del Caminero Tejeda"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Plan B:</b> con niebla cerrada, tormenta, viento fuerte o avisos, intercambia con el día de ciudad. Lleva agua, calzado con agarre, impermeable y abrigo. Maps no representa la reserva ni el transporte obligatorio.",
+          9.5,
+          "#4C5960"
+        ]
+      }
+    ],
+    "id": "dia-3",
+    "image": "nublo",
+    "label": "3 nov · Cumbre",
+    "tag": "Montaña · Reserva previa · 3–3 h 30 en coche",
+    "places": [
+      [
+        "Roque Nublo",
+        "El paisaje que merece esperar",
+        "Elige un día con buena visibilidad. El paseo habitual tiene subida y terreno irregular: lleva agua, abrigo y calzado con agarre.",
+        "Roque Nublo Gran Canaria"
+      ],
+      [
+        "Tejeda",
+        "La pausa más dulce",
+        "Después de la caminata, pasea por el pueblo y prueba su repostería de almendra: bienmesabe y mazapán.",
+        "Tejeda Gran Canaria"
+      ]
+    ]
+  },
+  {
+    "kicker": "Miércoles · 4 de noviembre",
+    "title": "Las Palmas, a tu ritmo",
+    "subtitle": "Vegueta y Triana a pie; Las Canteras por la tarde",
+    "blocks": [
+      {
+        "type": "heading",
+        "args": [
+          "Horario propuesto"
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "09:00–10:15",
+          "Paseo desde San Telmo por Triana y visita al Mercado de Vegueta. El mercado publica apertura entre semana hasta las 14:00."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "10:30–13:30",
+          "Plaza de Santa Ana, entorno de la catedral, calles de Vegueta y Casa de Colón. Confirma el horario de acceso del museo."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "13:30–15:00",
+          "Comida en Bodegón Lagunetas, en Triana."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "15:30–18:00",
+          "Con buen tiempo: guagua o taxi a Las Canteras y paseo hacia La Puntilla. Con lluvia: El Museo Canario."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "Tarde-noche",
+          "Regreso al hotel. Hoy puedes dejar el coche aparcado."
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Dónde comer: Bodegón Lagunetas"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Calle Constantino, 16, Triana.</b> Presupuesto: <b>20–25 € por persona</b>. Buena ubicación para esta ruta y para volver al hotel a pie. Pregunta por ropa vieja, pata asada, morcilla dulce, quesos canarios y platos del día."
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "La carta publicada incluye papas con mojo a 7 € y queso tierno a 8,50 €. El horario consultado para el miércoles es 08:00–23:00, pero el horario de cocina puede ser más limitado. Pregunta por medias raciones si quieres probar varios platos."
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Google Maps"
+        ]
+      },
+      {
+        "type": "route",
+        "args": [
+          "Ruta a pie: hotel → mercado → Santa Ana → Casa de Colón",
+          [
+            "Sercotel Hotel Parque, Las Palmas de Gran Canaria",
+            "Mercado de Vegueta",
+            "Plaza de Santa Ana Las Palmas",
+            "Casa de Colón Las Palmas"
+          ],
+          "walking"
+        ]
+      },
+      {
+        "type": "route",
+        "args": [
+          "Casa de Colón → Bodegón Lagunetas → hotel",
+          [
+            "Casa de Colón Las Palmas",
+            "Bodegón Lagunetas Las Palmas",
+            "Sercotel Hotel Parque, Las Palmas de Gran Canaria"
+          ],
+          "walking"
+        ]
+      },
+      {
+        "type": "route",
+        "args": [
+          "Paseo de tarde: Playa de Las Canteras → La Puntilla",
+          [
+            "Playa de Las Canteras",
+            "La Puntilla Las Palmas de Gran Canaria"
+          ],
+          "walking"
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Si llueve: cultura a cubierto"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>El Museo Canario</b> es una buena opción para conocer la población aborigen. Publica horario de lunes a viernes de 10:00 a 20:00. También permite completar este día si no te apetece playa.",
+          10
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "El Museo Canario: información de visita",
+          "https://www2.elmuseocanario.com/informacion-general/"
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "Mercado de Vegueta: web y horarios",
+          "https://mercadodevegueta.com/"
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "Bodegón Lagunetas: ficha de Guía Repsol",
+          "https://www.guiarepsol.com/es/fichas/solete/bodegon-lagunetas-326437/"
+        ]
+      }
+    ],
+    "id": "dia-4",
+    "image": "vegueta",
+    "label": "4 nov · Las Palmas",
+    "tag": "Historia · Playa · A pie y guagua",
+    "places": [
+      [
+        "Vegueta y Triana",
+        "La historia se recorre a pie",
+        "Plazas, calles históricas, mercado y museos. Casa de Colón y El Museo Canario permiten adaptar el día si llueve.",
+        "Plaza Santa Ana Las Palmas"
+      ],
+      [
+        "Las Canteras",
+        "La tarde frente al Atlántico",
+        "Recorre el paseo marítimo hasta La Puntilla. Puedes llegar desde el centro en guagua o taxi y dejar el coche aparcado.",
+        "La Puntilla Las Palmas de Gran Canaria"
+      ]
+    ]
+  },
+  {
+    "kicker": "Jueves · 5 de noviembre",
+    "title": "Telde y despedida junto al mar",
+    "subtitle": "Vuelo Vueling a Bilbao: salida a las 19:30, hora canaria",
+    "blocks": [
+      {
+        "type": "heading",
+        "args": [
+          "Horario propuesto"
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "09:30–10:00",
+          "Salida del hotel con el equipaje y desplazamiento a Telde."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "10:30–12:30",
+          "Paseo por los barrios históricos de San Juan y San Francisco."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "13:00–14:30",
+          "Comida en La Cofradía de Taliarte, en la costa de Telde."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "14:30–15:45",
+          "Paseo tranquilo por Taliarte y Melenara, según el tiempo."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "15:45–16:15",
+          "Salida hacia el aeropuerto y repostaje según el contrato."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "16:30–17:00",
+          "Devolución del coche en Goldcar. Confirma que esta hora esté incluida en la reserva."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "17:00–17:30",
+          "Estar en la terminal para facturación, seguridad y embarque. Sigue los límites indicados por Vueling."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "19:30",
+          "Salida del vuelo hacia Bilbao. No confundir con la hora de llegada."
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Dónde comer: La Cofradía de Taliarte"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Muelle de Taliarte, s/n.</b> Tel. <b>928 134 387</b>. Presupuesto: <b>25–30 € por persona</b>, eligiendo raciones sencillas. Pregunta por gofio escaldado, sardinas o pescado del día; confirma el precio de cualquier pieza al peso."
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "La web anuncia apertura los jueves de 08:00 a 23:00; eso no equivale al horario de cocina. Reserva para las 13:00 y confirma servicio. No se han verificado los precios exactos de una carta actual."
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Google Maps"
+        ]
+      },
+      {
+        "type": "route",
+        "args": [
+          "Mañana en coche: hotel → San Juan de Telde → Taliarte",
+          [
+            "Sercotel Hotel Parque, Las Palmas de Gran Canaria",
+            "Basílica de San Juan Bautista Telde",
+            "La Cofradía de Taliarte"
+          ]
+        ]
+      },
+      {
+        "type": "route",
+        "args": [
+          "Paseo histórico: San Juan → San Francisco",
+          [
+            "Basílica de San Juan Bautista Telde",
+            "Iglesia de San Francisco Telde"
+          ],
+          "walking"
+        ]
+      },
+      {
+        "type": "route",
+        "args": [
+          "Tarde en coche: Taliarte → Melenara → aeropuerto",
+          [
+            "La Cofradía de Taliarte",
+            "Playa de Melenara",
+            "Aeropuerto de Gran Canaria"
+          ]
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "La Cofradía de Taliarte: contacto y horarios",
+          "https://www.lacofradiadetaliarte.es/"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Si el día se complica:</b> suprime el paseo de tarde y ve al aeropuerto con margen. Comprueba el punto exacto de devolución en tu contrato de Goldcar: el enlace de Maps termina en el aeropuerto, no en una plaza de devolución concreta.",
+          9.5,
+          "#4C5960"
+        ]
+      }
+    ],
+    "id": "dia-5",
+    "image": "telde",
+    "label": "5 nov · Telde",
+    "tag": "Pueblos · Mar · Vuelo a las 19:30",
+    "places": [
+      [
+        "Telde",
+        "San Juan y San Francisco",
+        "Dedica la mañana a sus calles y plazas históricas antes de bajar a la costa para comer.",
+        "Barrio San Francisco Telde"
+      ],
+      [
+        "Taliarte y Melenara",
+        "Una última comida junto al mar",
+        "Tras el almuerzo, da un paseo corto y tranquilo. Mantén el margen para repostar, devolver el coche y llegar a la terminal.",
+        "Playa Melenara"
+      ]
+    ]
+  },
+  {
+    "kicker": "Alternativa y referencias",
+    "title": "Gáldar y Agaete",
+    "subtitle": "Para sustituir la cumbre o cambiar el día del sur",
+    "blocks": [
+      {
+        "type": "heading",
+        "args": [
+          "Ruta alternativa de historia y costa"
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "09:00",
+          "Salida del hotel hacia Gáldar."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "10:00–12:00",
+          "Cueva Pintada, según entrada reservada, y paseo por el casco histórico."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "12:30–14:30",
+          "Agaete y comida en Puerto de las Nieves."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "14:30–16:30",
+          "Paseo por el puerto y el casco de Agaete, adaptado al tiempo."
+        ]
+      },
+      {
+        "type": "slot",
+        "args": [
+          "16:30–17:30",
+          "Regreso al hotel. Conducción total orientativa: 1 h 45–2 h 15."
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Cueva Pintada:</b> cierra los lunes. El horario publicado de octubre a mayo es martes a sábado 10:00–18:00 y domingos/festivos 11:00–18:00. Compra entrada anticipada y comprueba el pase disponible; no hay ninguna reserva realizada."
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "Cueva Pintada: información de Turismo de Gáldar",
+          "https://visitgaldar.es/museos/museo-y-parque-arqueologico-cueva-pintada"
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Comida alternativa: Terraza Angor"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Paseo de los Poetas, 2, Puerto de las Nieves.</b> Tel. <b>928 554 109</b>. Cocina marinera, ropa vieja de pulpo y postres caseros. No se ha verificado carta actual de precios: pregunta por raciones y presupuesto antes de pedir."
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "<b>Solo encaja aquí el martes si mantiene su horario:</b> la ficha consultada publica cierre miércoles y jueves. No lo uses como parada del miércoles sin confirmación. Si cambias la excursión a ese día, elige un local abierto tras consultar su carta."
+        ]
+      },
+      {
+        "type": "link",
+        "args": [
+          "Angor: cocina, contacto y horario publicado",
+          "https://descubreagaete.com/terraza-angor/"
+        ]
+      },
+      {
+        "type": "route",
+        "args": [
+          "Ruta: hotel → Cueva Pintada → Puerto de las Nieves → hotel",
+          [
+            "Sercotel Hotel Parque, Las Palmas de Gran Canaria",
+            "Museo y Parque Arqueológico Cueva Pintada Gáldar",
+            "Puerto de las Nieves Agaete",
+            "Sercotel Hotel Parque, Las Palmas de Gran Canaria"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "args": [
+          "Comprobaciones rápidas antes de salir"
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "1. Tiempo y avisos de la zona que vas a visitar.<br/>2. Apertura y cocina del restaurante, especialmente el domingo festivo y el martes en Tejeda.<br/>3. Reserva del Roque Nublo y transporte, o entrada de Cueva Pintada.<br/>4. Hora de devolución del coche y condiciones del vuelo.",
+          10
+        ]
+      },
+      {
+        "type": "p",
+        "args": [
+          "Guía preparada con la información consultada en esta conversación el 31/10/2026. Los enlaces oficiales y las cartas están incluidos en las páginas de cada día. Precios, disponibilidad, aperturas y tráfico pueden cambiar. Los enlaces de Google Maps son búsquedas/rutas por nombre, no itinerarios comprobados en tiempo real.",
+          9.5,
+          "#4C5960"
+        ]
+      }
+    ],
+    "id": "alternativa",
+    "image": "agaete",
+    "label": "Plan alternativo",
+    "tag": "Arqueología · Costa · 1 h 45–2 h 15 en coche",
+    "places": [
+      [
+        "Gáldar",
+        "Una ventana a la isla aborigen",
+        "La Cueva Pintada es la visita cultural principal de esta alternativa. Reserva el pase; el museo cierra los lunes.",
+        "Museo Cueva Pintada Gáldar"
+      ],
+      [
+        "Agaete",
+        "Puerto, pueblo y paisaje",
+        "Completa el día paseando por Puerto de las Nieves y el casco de Agaete. Ajusta los recorridos al estado del mar y al tiempo.",
+        "Puerto de las Nieves Agaete"
+      ]
+    ]
+  }
+]

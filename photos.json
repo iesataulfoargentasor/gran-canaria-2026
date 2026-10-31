@@ -1,0 +1,72 @@
+[
+  {
+    "key": "teror",
+    "title": "File:Cupola - Basílica de Nuestra Señora del Pino - Teror - Gran Canaria.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cupola_-_Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_del_Pino_-_Teror_-_Gran_Canaria.jpg",
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Teror Basilica Pino exterior",
+    "file": "assets/teror.jpg"
+  },
+  {
+    "key": "mogan",
+    "title": "File:Panoramic view to the harbor of Puerto de Mogan - panoramio.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Panoramic_view_to_the_harbor_of_Puerto_de_Mogan_-_panoramio.jpg",
+    "author": "K_L",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Puerto de Mogan harbor",
+    "file": "assets/mogan.jpg"
+  },
+  {
+    "key": "nublo",
+    "title": "File:Roque Nublo 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Roque_Nublo_2.jpg",
+    "author": "Cap1000",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Roque Nublo landscape",
+    "file": "assets/nublo.jpg"
+  },
+  {
+    "key": "vegueta",
+    "title": "File:Plaza Mayor de Santa Ana, Las Palmas de Gran Canaria, May 2018.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Plaza_Mayor_de_Santa_Ana,_Las_Palmas_de_Gran_Canaria,_May_2018.jpg",
+    "author": "Martin Falbisoner",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Plaza Santa Ana Las Palmas",
+    "file": "assets/vegueta.jpg"
+  },
+  {
+    "key": "telde",
+    "title": "File:Iglesia de San Francisco Telde 02.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Francisco_Telde_02.jpg",
+    "author": "Helmlechner",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Telde San Francisco",
+    "file": "assets/telde.jpg"
+  },
+  {
+    "key": "dunas",
+    "title": "File:GC Dunas de Maspalomas R04.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:GC_Dunas_de_Maspalomas_R04.jpg",
+    "author": "Marc Ryckaert (MJJR)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "caption": "Maspalomas dunes",
+    "file": "assets/dunas.jpg"
+  },
+  {
+    "key": "agaete",
+    "title": "File:Puerto de las Nieves 2010.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Puerto_de_las_Nieves_2010.jpg",
+    "author": "Felix König",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "caption": "Puerto de las Nieves Agaete",
+    "file": "assets/agaete.jpg"
+  }
+]
