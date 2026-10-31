@@ -41,10 +41,10 @@
         const a=points.find(p=>p.id===r.stops[i]),b=points.find(p=>p.id===r.stops[i+1]);
         if(!a||!b||!routeLayer)return;
         const text=`${i+1} → ${i+2} · ${modes[leg.mode]} · ${leg.time}`;
-        L.polyline([[a.lat,a.lng],[b.lat,b.lng]],{color:days[day].color,weight:4,opacity:.75,dashArray:leg.mode==='walking'?'3 8':'10 8'}).bindTooltip(esc(text),{sticky:true}).bindPopup(`<b>${esc(days[day].label)}</b><p>${esc(a.name)} → ${esc(b.name)}</p><b>${esc(text)}</b><p>${esc(leg.note||'Tiempo orientativo; consulta el recorrido antes de salir.')}</p><a href="${esc(directions(a,b,leg))}" target="_blank" rel="noopener">${leg.mode==='shuttle'?'Consultar acceso y transporte':'Ver recorrido en Google Maps'} ↗</a>`).addTo(routeLayer);
+        (leg.segments||[]).forEach(segment=>L.polyline(segment.coordinates,{color:days[day].color,weight:4,opacity:.85,dashArray:segment.mode==='walking'?'3 7':segment.mode==='shuttle'?'10 5':null}).bindTooltip(esc(text),{sticky:true}).bindPopup(`<b>${esc(days[day].label)}</b><p>${esc(a.name)} → ${esc(b.name)}</p><b>${esc(text)}</b><p>${esc(leg.note||'Tiempo orientativo; consulta el recorrido antes de salir.')}</p>${leg.geometryNote?'<p>'+esc(leg.geometryNote)+'</p>':''}<a href="${esc(directions(a,b,leg))}" target="_blank" rel="noopener">${leg.mode==='shuttle'?'Consultar acceso y transporte':'Ver recorrido en Google Maps'} ↗</a>`).addTo(routeLayer));
       });
     });
-    if(selectedDay==='all'){routePanel.innerHTML='<h3>Rutas de cada día</h3><p>Elige un día para ver las paradas numeradas, los tiempos entre ellas y las opciones de ruta. Las líneas son esquemáticas.</p>';return;}
+    if(selectedDay==='all'){routePanel.innerHTML='<h3>Rutas de cada día</h3><p>Elige un día para ver las paradas numeradas, los tiempos entre ellas y las opciones de ruta. Los trazados siguen carreteras y caminos cartografiados.</p>';return;}
     const r=routeFor(selectedDay);if(!r)return;
     const heading=document.createElement('h3');heading.textContent='Ruta en orden de visita';routePanel.append(heading);
     if(routes[selectedDay].variants){
@@ -52,17 +52,17 @@
       ['Ruta principal',...routes[selectedDay].variants.map(v=>v.label)].forEach((name,i)=>{const o=document.createElement('option');o.value=i;o.textContent=name;select.append(o);});select.value=variant;
       select.addEventListener('change',()=>{variant=Number(select.value);render();});label.append(select);routePanel.append(label);
     }
-    const note=document.createElement('p');note.className='route-note';note.textContent=(r.note?r.note+' ':'')+'Tiempos aproximados. Líneas esquemáticas, no trazado navegable.';routePanel.append(note);
+    const note=document.createElement('p');note.className='route-note';note.textContent=(r.note?r.note+' ':'')+'Tiempos aproximados. Trazados calculados sobre OpenStreetMap: línea continua por carretera y puntos a pie. Los extremos se ajustan al acceso disponible más cercano; añade el paseo desde el aparcamiento. Consulta posibles cierres antes de salir.';routePanel.append(note);
     const ol=document.createElement('ol');ol.className='route-stops';
     r.stops.forEach((id,i)=>{
       const p=points.find(p=>p.id===id);if(!p)return;const li=document.createElement('li');
       const button=document.createElement('button');button.type='button';button.textContent=p.name;button.disabled=!map;button.addEventListener('click',()=>selectPlace(p));li.append(button);
-      if(r.legs[i]){const leg=r.legs[i],next=points.find(p=>p.id===r.stops[i+1]);const detail=document.createElement('div');detail.className='route-leg';detail.innerHTML=`<strong>↓ ${esc(modes[leg.mode])} · ${esc(leg.time)}</strong>${leg.note?'<p>'+esc(leg.note)+'</p>':''}<a href="${esc(directions(p,next,leg))}" target="_blank" rel="noopener">${leg.mode==='shuttle'?'Acceso y guagua':'Ver este tramo'} ↗</a>`;li.append(detail);}
+      if(r.legs[i]){const leg=r.legs[i],next=points.find(p=>p.id===r.stops[i+1]);const detail=document.createElement('div');detail.className='route-leg';detail.innerHTML=`<strong>↓ ${esc(modes[leg.mode])} · ${esc(leg.time)}</strong>${leg.note?'<p>'+esc(leg.note)+'</p>':''}${leg.geometryNote?'<p>'+esc(leg.geometryNote)+'</p>':''}${!leg.segments?.length?'<p>Trazado no disponible; consulta el enlace del tramo.</p>':''}<a href="${esc(directions(p,next,leg))}" target="_blank" rel="noopener">${leg.mode==='shuttle'?'Acceso y guagua':'Ver este tramo'} ↗</a>`;li.append(detail);}
       ol.append(li);
     });routePanel.append(ol);
   }
 
-  function fit() { if (map && filtered.length) map.fitBounds(filtered.map(p=>[p.lat,p.lng]), {padding:[35,35],maxZoom:15}); }
+  function fit() { if (map && filtered.length) { const bounds=L.latLngBounds(filtered.map(p=>[p.lat,p.lng])); routeLayer?.eachLayer(line=>bounds.extend(line.getBounds()));map.fitBounds(bounds,{padding:[35,35],maxZoom:15}); } }
   function popup(p) {
     const dayText = p.kind==='base' ? 'Punto común del viaje' : p.days.map(d=>days[d].label).join(' · ');
     return `<div class="place-popup"><span class="eyebrow">${esc(types[p.kind])} · ${esc(dayText)}</span><h3>${esc(p.name)}</h3><p>${esc(p.description)}</p>${p.approximate?'<p class="approx">Ubicación aproximada: entorno de la dirección.</p>':''}<a href="${esc(mapsUrl(p))}" target="_blank" rel="noopener noreferrer">Cómo llegar en Google Maps ↗</a></div>`;

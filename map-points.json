@@ -179,12 +179,12 @@
       "dia-3"
     ],
     "query": "Cruz de los Llanos, Gran Canaria",
-    "description": "Acceso orientativo a la cumbre. Utiliza el aparcamiento y la guagua indicados por la reserva vigente.",
-    "lat": 27.9703,
-    "lng": -15.5849,
-    "approximate": true,
-    "source": "",
-    "match": ""
+    "description": "Parada de guagua Cruz de los Llanos. Aparca en la zona habilitada indicada por tu reserva; desde aquí, transporte al inicio del sendero.",
+    "lat": 27.9771994,
+    "lng": -15.5802912,
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/node/12610451098",
+    "match": "Cruz De Los Llanos · parada Global 46122"
   },
   {
     "id": "nublo",

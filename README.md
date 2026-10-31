@@ -25,3 +25,8 @@ Datos consultados el 31/10/2026; confirmar horarios, precios y accesos. No hay r
 
 
 Rutas: `map-routes.json` define paradas ordenadas, modos y rangos estimados manualmente (no tiempos calculados ni tráfico en directo). Se dibujan conexiones esquemáticas discontinuas. Las alternativas de Teror y lluvia en Las Palmas se eligen en el panel. Cada tramo enlaza Google Maps; el acceso al Nublo enlaza el portal oficial de senderos. Regresos a los coches incluidos.
+
+
+Actualización: las conexiones esquemáticas se sustituyen por `segments[].coordinates` (latitud/longitud), calculadas con OSRM/FOSSGIS (perfiles routed-car y routed-foot), datos © OpenStreetMap contributors, ODbL. Datos guardados para evitar peticiones por visitante. Sin fallback de líneas rectas. Los tramos urbanos de transporte muestran la opción taxi. Nublo: carretera hasta La Goleta y sendero separado; no es un track oficial de la guagua. Los tiempos de planificación se mantienen y no representan tráfico en directo.
+
+El sendero La Goleta–Roque Nublo se ha reconstruido sobre la geometría de caminos OSM (vías identificadas en osmWays), incluyendo el acceso con reserva. Longitud aproximada: 1549 m por sentido. La parada Cruz de los Llanos se ha corregido con el nodo OSM 12610451098; La Goleta corresponde a la parada 12610463464. La geometría no sustituye la reserva ni valida la apertura del sendero.
