@@ -26,6 +26,32 @@
   const modes = {driving:'En coche',walking:'A pie',transit:'Guagua / taxi',shuttle:'Guagua + a pie'};
   const routePanel = document.getElementById('route-panel');
   function routeFor(day) { const r=routes[day];return r && day===selectedDay && variant ? r.variants[variant-1] : r; }
+
+  function legDistance(leg) {
+    return leg.segments?.length && leg.segments.every(s=>Number.isFinite(s.distance)) ? leg.segments.reduce((n,s)=>n+s.distance,0) : null;
+  }
+  function km(meters) {
+    return meters===null ? 'Distancia no disponible' : (meters/1000).toLocaleString('es-ES',{minimumFractionDigits:meters<100?2:1,maximumFractionDigits:meters<100?2:1})+' km';
+  }
+  function minutes(n) { const h=Math.floor(n/60),m=n%60;return h ? h+' h'+(m?' '+m+' min':'') : m+' min'; }
+  function routeTotals(r) {
+    let distance=0,low=0,high=0,validDistance=true,validTime=true;
+    const byMode={};
+    r.legs.forEach(leg=>{
+      const d=legDistance(leg);if(d===null)validDistance=false;else distance+=d;
+      const match=leg.time.match(/^(\d+)(?:[–-](\d+))? min$/);
+      if(match){low+=Number(match[1]);high+=Number(match[2]||match[1]);}else validTime=false;
+      (leg.segments||[]).forEach(segment=>{byMode[segment.mode]=(byMode[segment.mode]||0)+segment.distance;});
+    });
+    return {distance:validDistance?distance:null,low:validTime?low:null,high:validTime?high:null,byMode};
+  }
+  function summaryHtml(r,label) {
+    const t=routeTotals(r),time=t.low===null?'Tiempo no disponible':t.low===t.high?minutes(t.low):minutes(t.low)+' – '+minutes(t.high);
+    const labels={driving:'Carretera (coche/taxi)',walking:'A pie',shuttle:'Carretera (guagua)'};
+    return `<div class="route-summary"><h4>${esc(label)}</h4><dl><div><dt>Distancia total</dt><dd>${esc(km(t.distance))}</dd></div><div><dt>Desplazamiento aprox.</dt><dd>${esc(time)}</dd></div></dl><p class="distance-breakdown">${Object.entries(t.byMode).map(([mode,d])=>esc(labels[mode]||mode)+': '+esc(km(d))).join(' · ')}</p></div>`;
+  }
+  const totalsNote='Suma de los tramos de la ruta, incluidos los regresos. Distancias del trazado guardado, redondeadas; los totales se calculan antes de redondear. Tiempo de desplazamiento, sin visitas ni comidas. Añade aparcamiento y esperas salvo las ya indicadas en cada tramo; sin tráfico en directo. En Las Palmas, los kilómetros del traslado urbano corresponden al taxi y su tiempo conserva la estimación de guagua.';
+
   function directions(a,b,leg) {
     if (leg.mode==='shuttle') return 'https://grancanariasenderos.com/';
     return 'https://www.google.com/maps/dir/?api=1&origin='+encodeURIComponent(a.query)+'&destination='+encodeURIComponent(b.query)+'&travelmode='+leg.mode;
@@ -40,11 +66,11 @@
       r.legs.forEach((leg,i)=>{
         const a=points.find(p=>p.id===r.stops[i]),b=points.find(p=>p.id===r.stops[i+1]);
         if(!a||!b||!routeLayer)return;
-        const text=`${i+1} → ${i+2} · ${modes[leg.mode]} · ${leg.time}`;
+        const text=`${i+1} → ${i+2} · ${modes[leg.mode]} · ${km(legDistance(leg))} · ${leg.time}`;
         (leg.segments||[]).forEach(segment=>L.polyline(segment.coordinates,{color:days[day].color,weight:4,opacity:.85,dashArray:segment.mode==='walking'?'3 7':segment.mode==='shuttle'?'10 5':null}).bindTooltip(esc(text),{sticky:true}).bindPopup(`<b>${esc(days[day].label)}</b><p>${esc(a.name)} → ${esc(b.name)}</p><b>${esc(text)}</b><p>${esc(leg.note||'Tiempo orientativo; consulta el recorrido antes de salir.')}</p>${leg.geometryNote?'<p>'+esc(leg.geometryNote)+'</p>':''}<a href="${esc(directions(a,b,leg))}" target="_blank" rel="noopener">${leg.mode==='shuttle'?'Consultar acceso y transporte':'Ver recorrido en Google Maps'} ↗</a>`).addTo(routeLayer));
       });
     });
-    if(selectedDay==='all'){routePanel.innerHTML='<h3>Rutas de cada día</h3><p>Elige un día para ver las paradas numeradas, los tiempos entre ellas y las opciones de ruta. Los trazados siguen carreteras y caminos cartografiados.</p>';return;}
+    if(selectedDay==='all'){routePanel.innerHTML='<h3>Resumen por día</h3><p>Rutas principales. Elige un día para ver cada tramo y recalcular el resumen con sus alternativas. Gáldar y Agaete sustituyen a otra jornada.</p>'+Object.keys(days).filter(day=>routes[day]).map(day=>summaryHtml(routes[day],days[day].label)).join('')+'<details class="totals-note"><summary>Qué incluyen estos totales</summary><p>'+esc(totalsNote)+'</p></details>';return;}
     const r=routeFor(selectedDay);if(!r)return;
     const heading=document.createElement('h3');heading.textContent='Ruta en orden de visita';routePanel.append(heading);
     if(routes[selectedDay].variants){
@@ -52,12 +78,13 @@
       ['Ruta principal',...routes[selectedDay].variants.map(v=>v.label)].forEach((name,i)=>{const o=document.createElement('option');o.value=i;o.textContent=name;select.append(o);});select.value=variant;
       select.addEventListener('change',()=>{variant=Number(select.value);render();});label.append(select);routePanel.append(label);
     }
+    const summary=document.createElement('section');summary.setAttribute('aria-label','Resumen del día');summary.setAttribute('aria-live','polite');summary.innerHTML=summaryHtml(r,variant?r.label:'Total de este día')+'<details class="totals-note"><summary>Qué incluyen estos totales</summary><p>'+esc(totalsNote)+'</p></details>';routePanel.append(summary);
     const note=document.createElement('p');note.className='route-note';note.textContent=(r.note?r.note+' ':'')+'Tiempos aproximados. Trazados calculados sobre OpenStreetMap: línea continua por carretera y puntos a pie. Los extremos se ajustan al acceso disponible más cercano; añade el paseo desde el aparcamiento. Consulta posibles cierres antes de salir.';routePanel.append(note);
     const ol=document.createElement('ol');ol.className='route-stops';
     r.stops.forEach((id,i)=>{
       const p=points.find(p=>p.id===id);if(!p)return;const li=document.createElement('li');
       const button=document.createElement('button');button.type='button';button.textContent=p.name;button.disabled=!map;button.addEventListener('click',()=>selectPlace(p));li.append(button);
-      if(r.legs[i]){const leg=r.legs[i],next=points.find(p=>p.id===r.stops[i+1]);const detail=document.createElement('div');detail.className='route-leg';detail.innerHTML=`<strong>↓ ${esc(modes[leg.mode])} · ${esc(leg.time)}</strong>${leg.note?'<p>'+esc(leg.note)+'</p>':''}${leg.geometryNote?'<p>'+esc(leg.geometryNote)+'</p>':''}${!leg.segments?.length?'<p>Trazado no disponible; consulta el enlace del tramo.</p>':''}<a href="${esc(directions(p,next,leg))}" target="_blank" rel="noopener">${leg.mode==='shuttle'?'Acceso y guagua':'Ver este tramo'} ↗</a>`;li.append(detail);}
+      if(r.legs[i]){const leg=r.legs[i],next=points.find(p=>p.id===r.stops[i+1]);const detail=document.createElement('div');detail.className='route-leg';detail.innerHTML=`<strong>↓ ${esc(modes[leg.mode])} · ${esc(km(legDistance(leg)))} · ${esc(leg.time)}</strong>${leg.note?'<p>'+esc(leg.note)+'</p>':''}${leg.geometryNote?'<p>'+esc(leg.geometryNote)+'</p>':''}${!leg.segments?.length?'<p>Trazado no disponible; consulta el enlace del tramo.</p>':''}<a href="${esc(directions(p,next,leg))}" target="_blank" rel="noopener">${leg.mode==='shuttle'?'Acceso y guagua':'Ver este tramo'} ↗</a>`;li.append(detail);}
       ol.append(li);
     });routePanel.append(ol);
   }
